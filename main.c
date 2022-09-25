@@ -16,7 +16,7 @@ int main(void)
 		list[i].next = &list[i+1];
 		list[i].val = i;
 	}
-	list[9].val = 9;
+	list[9].val = 999;
 	list[9].next = NULL;
 
 	for (it = head; it; it = it->next)
